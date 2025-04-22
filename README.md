@@ -42,12 +42,7 @@ The system detects an approaching vehicle using an ultrasonic sensor. The driver
    - Enter your WiFi credentials and MongoDB API details.
    - Upload the code to NodeMCU.
 
-3. *MongoDB Atlas Setup*
-   - Create a cluster and database.
-   - Create a collection to store RFID user data and logs.
-   - Use Node.js or a serverless function to connect NodeMCU with MongoDB via HTTP API or backend.
-
-4. *Testing*
+3. *Testing*
    - Power up the system.
    - Bring a vehicle (or hand) in range of the ultrasonic sensor.
    - Scan an RFID tag.
